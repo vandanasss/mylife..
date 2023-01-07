@@ -1,0 +1,16 @@
+The challenge faced before building the disease progression model are to get proper data.
+Dataset will differ from one patient to another based on many things such as genetic characteristics etc.For building the model the history of the patient matters a lot.Because the past state will influence on future state transition.
+
+A powerful clinical model will build from a proper dataset, particular disease. So to solve the problem in time series generation Dynamic deep Hit is used to find the amount of risk a new patient will face based on the training data. Here, will have three loss function and the main aim is to minimise the loss function
+To solve the problem will have clustering and phenotyping of patients where phenotyping is grouping up similar type of patients together. With the help of auto encoder base method distance is calculated and will allow patients to be clustered.
+
+The main problem is how we can learn past time series data to describe the best future events. It can be achieved by finding clustered assignments and cluster centroid of input sequence in the latent space.
+Monitoring patients is also a challenging task. Personalized monitoring is done when a patient is diagnosed with a disease. So deep sensing is used it will help to handle missing date and imputing it.
+
+Early diagnosis is one of the challenges which will be solved by clinicians by providing a quantitative understanding of disease with the help of machine learning techniques.With the help of hidden states will diagonize the patient before getting symptoms.
+Treatment effect is one more challenge will be solved with the help of understanding the patients history and deciding optimal time of treatment.
+
+Selecting the Time series model is one more challenge and as the risk factors are changing its difficult to find best model for each time step to solve this we can use stepwise model selection via deep kernel learning.
+Interpretability is very important thing here time plays important role while explaining the context of time series model.
+
+
